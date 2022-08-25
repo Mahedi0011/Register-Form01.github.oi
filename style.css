@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background: linear-gradient(to bottom right, rgb(164, 184, 202), rgb(52, 121, 174));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   font-family: sans-serif;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+}
+.register-now{
+    width: 350px;
+    height: 580px;
+    padding: 30px;
+    border: 5px solid #34495e;
+    border-radius: 10px;
+    background:rgba(52, 73, 94, 1) ;
+}
+form h2{
+    color: #fff;
+    text-align: center;
+}
+.input-style{
+    margin-top: 05px;
+}
+
+.input-style input{
+    width: 90%;
+    background: transparent;
+    padding: 15px;
+    border: 2px solid #16a085;
+    border-radius: 5px;
+    height: 15px;
+     color: #fff;
+     outline:none ;
+     margin-bottom: 10px;
+}
+.input-style label{
+    color: #ffff;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+.gender p{
+    color: #ffff;
+    margin-top: 4px;
+}
+
+.option{
+    margin-top: 6px;
+}
+.option label{
+color: #fff;
+cursor: pointer;
+}
+.register-page input{
+    width: 90%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+    outline: none;
+    font-size: 15px;
+    color: rgb(1, 0, 0);
+    cursor: pointer;
+    border: none;
+}
